@@ -6,8 +6,16 @@ Tested up to: 4.8
 Stable tag: 
 License: GPLv3
 
+Plugin para insertar una imagen en los "windgets areas"
+
 == Description ==
-Widget para insertar una imagen en los "windgets areas"
+Principalmente una escusa para aprender más y aplicar los conocimientos de los 
+cursos de http://boluda.com. Por otra parte, a partir de WordPress 4.8, este 
+plug-in carecerá de sentido, ya que viene incorporado los "widget de imagen"
+dentro de dicha versión.
+
+Pero si aun tienes deceso de probarlo, el plug-in, incorpora una widget área y 
+un plug-in de imagen. Que lo disfrutes.
 
 == Installation ==
 
