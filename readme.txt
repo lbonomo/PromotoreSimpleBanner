@@ -19,9 +19,12 @@ Pero si aun tienes deceso de probarlo, el plug-in, incorpora una widget área y 
 
 == Changelog ==
 
+= unrelease =
+*Release Date - *
+- Prepare la traducción para evitar el cartel "This plugin is not available in Español de Argentina yet. Help translate it!"
+
 = 0.0.3 =
 *Release Date - 17 Mayo, 2017*
-- Prepare la traducción para evitar el cartel "This plugin is not available in Español de Argentina yet. Help translate it!"
 - Renombre el directorio de las librerias (img/css/js)
 
 = 0.0.2 =

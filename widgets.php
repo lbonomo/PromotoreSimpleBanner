@@ -18,7 +18,7 @@ class ptr_banner_widget extends WP_Widget {
         // Agrego el estilo del Plug-in
         wp_enqueue_style(
             'ptr_banner', // Name of the stylesheet. Should be unique.
-            plugin_dir_url( __FILE__ ).'assets/css/banner.css');
+            plugin_dir_url( __FILE__ ).'libs/css/banner.css');
         ?>       
             <p>Puede configurar la imagen en Ajustes -> Simple Banner</p>
             <img 

@@ -19,7 +19,7 @@
 function ptr_add_styles() {
     wp_enqueue_style( 
             'ptr_banner', // Name of the stylesheet. Should be unique.
-            plugin_dir_url( __FILE__ ).'assets/css/banner.css');
+            plugin_dir_url( __FILE__ ).'libs/css/banner.css');
 }
 add_action( 'wp_enqueue_scripts', 'ptr_add_styles' ); 
 

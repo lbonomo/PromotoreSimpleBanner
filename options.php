@@ -57,7 +57,7 @@ function promotore_options_register_script( $page ) {
     # Se ejecuta solo en la pagina options-general.php?page=ptr_banner_options
     # para evitar errores.
     if ($page == "settings_page_ptr_banner_options") {
-        wp_enqueue_script( 'ptr_banner_script', plugins_url('assets/js/promotore.js' , __FILE__ ), array('jquery'), '0.1' );
+        wp_enqueue_script( 'ptr_banner_script', plugins_url('libs/js/promotore.js' , __FILE__ ), array('jquery'), '0.1' );
     }
     
 }
