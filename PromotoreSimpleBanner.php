@@ -2,16 +2,18 @@
 /**
  * @package Promotore Simple Banner 
  */
+
 /*
-Plugin Name: Promotore Simple Banner
-Plugin URI: https://promotore.com.ar/wordpress-plugins/
-Description: Nos permite subier una imagen y ubicarla como widget
-Version: 0.0.1
-Author: Lucas Bonomo
-Author URI: https://lucasbonomo.com/
-License: GPLv2 or later
-Text Domain: Promotore Simple Banner 
-*/
+ * Plugin Name: Promotore Simple Banner
+ * Plugin URI: https://promotore.com.ar/wordpress-plugins/
+ * Description: Nos permite subier una imagen y ubicarla como widget
+ * Version: 0.0.3
+ * Author: Lucas Bonomo
+ * Author URI: https://lucasbonomo.com/
+ * License: GPLv2 or later
+ * Text Domain: promotore-simple-banner
+ * Domain Path: /languages
+ */
 
 // Agrego el estilo del Plug-in
 function ptr_add_styles() {
