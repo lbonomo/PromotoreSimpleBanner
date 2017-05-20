@@ -7,13 +7,28 @@
  * Plugin Name: Promotore Simple Banner
  * Plugin URI: https://promotore.com.ar/wordpress-plugins/
  * Description: Nos permite subier una imagen y ubicarla como widget
- * Version: 0.0.4
+ * Version: 0.0.5
  * Author: Lucas Bonomo
  * Author URI: https://lucasbonomo.com
  * License: GPLv2 or later
  * Text Domain: promotore-simple-banner
  * Domain Path: /languages
  */
+
+
+
+/**
+ * Leo la traducción
+ * https://developer.wordpress.org/plugins/internationalization/localization/
+ * svn co http://develop.svn.wordpress.org/trunk/ wpdev
+ * php ../../../wpdev/tools/i18n/makepot.php wp-plugin ../ promotore-simple-banner.pot
+ */
+function ptr_localization() {
+    # load_plugin_textdomain( 'promotore-simple-banner', false, basename( dirname( __FILE__ ) ) . '/languages' ); 
+    load_plugin_textdomain( 'promotore-simple-banner', false, basename( dirname( __FILE__ ) ) . '/languages' ); 
+    echo "<script> console.log('*** localization ***')</script>";
+}
+add_action( 'plugins_loaded', 'ptr_localization' );
 
 // Agrego el estilo del Plug-in
 function ptr_add_styles() {
