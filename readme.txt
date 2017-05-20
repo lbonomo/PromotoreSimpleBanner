@@ -18,8 +18,8 @@ Pero si aun tienes deceso de probarlo, el plug-in, incorpora una widget área y 
 
 == Changelog ==
 
-= unrelease =
-*Release Date - *
+= 0.0.4 =
+*Release Date - 20 Mayo, 2017*
 - Prepare la traducción para evitar el cartel "This plugin is not available in Español de Argentina yet. Help translate it!"
 
 = 0.0.3 =

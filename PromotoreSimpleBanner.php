@@ -7,7 +7,7 @@
  * Plugin Name: Promotore Simple Banner
  * Plugin URI: https://promotore.com.ar/wordpress-plugins/
  * Description: Nos permite subier una imagen y ubicarla como widget
- * Version: 0.0.3
+ * Version: 0.0.4
  * Author: Lucas Bonomo
  * Author URI: https://lucasbonomo.com
  * License: GPLv2 or later
