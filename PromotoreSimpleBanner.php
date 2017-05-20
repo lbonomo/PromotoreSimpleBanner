@@ -9,7 +9,7 @@
  * Description: Nos permite subier una imagen y ubicarla como widget
  * Version: 0.0.3
  * Author: Lucas Bonomo
- * Author URI: https://lucasbonomo.com/
+ * Author URI: https://lucasbonomo.com
  * License: GPLv2 or later
  * Text Domain: promotore-simple-banner
  * Domain Path: /languages
@@ -33,8 +33,8 @@ include_once(plugin_dir_path( __FILE__ ).'widgets.php');
 function ptr_new_wa() {
     $options = array(
         'id' => 'ptr-wa-before-loop',
-        'name' => 'Promotore WA before loop',
-        'description' => 'Widget Area antes del loop (genesis_before_loop)',
+        'name' => __('Promotore WA before loop','promotore-simple-banner'),
+        'description' => __('Widget Area before the loop (genesis_before_loop)','promotore-simple-banner'),
         'class'         => 'ptr-wa-before-loop',
 	'before_widget' => '<div id="%1$s" class="widget %2$s">',
 	'after_widget'  => '</div>',

@@ -1,0 +1,26 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: promotore-simple-banner\n"
+"POT-Creation-Date: 2017-05-19 19:53-0300\n"
+"PO-Revision-Date: 2017-05-19 20:32-0300\n"
+"Last-Translator: Lucas Bonomo <lucas@vanguard.com.ar>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_AR\n"
+
+msgid "Widget Area before the loop (genesis_before_loop)"
+msgstr "Widget Area antes del loop (genesis_before_loop)"
+
+msgid "Select the image"
+msgstr "Seleccione una imagen"
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "You can configure image in Options -> Simple Banner"
+msgstr "Puedes configurar la imagen en Ajustes -> Simple Banner"

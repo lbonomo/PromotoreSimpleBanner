@@ -8,11 +8,11 @@
 // Agrego el Menu "Ajustes -> Simple Banner"
 function ptr_banner_custom_admin_menu() {
     add_options_page(
-        __( 'Simple Banner (by Promotore)', 'ptr_banner' ), // page title
-        __( 'Simple Banner', 'ptr_banner' ),                // menu title
-        'manage_options',                                   // capability required to see the page
-        'ptr_banner_options',                               // admin page slug, e.g. options-general.php?page=ptr_banner_options
-        'ptr_banner_options_page'                           // callback function to display the options page options.php
+        'Simple Banner (by Promotore)',  // page title
+        'Simple Banner',                 // menu title
+        'manage_options',                // capability required to see the page
+        'ptr_banner_options',            // admin page slug, e.g. options-general.php?page=ptr_banner_options
+        'ptr_banner_options_page'        // callback function to display the options page options.php
     );
 }
 add_action( 'admin_menu', 'ptr_banner_custom_admin_menu' );
@@ -38,11 +38,11 @@ function ptr_banner_options_page() {
             <div class='image-preview-wrapper'>
                     <img id='image-preview' src='<?php echo wp_get_attachment_url( get_option( 'ptr_banner_id' ) ); ?>' height='300'>
             </div>
-            <input id="upload_image_button" type="button" class="button" value="Subir imagen" />
+            <input id="upload_image_button" type="button" class="button" value="<?php _e('Select the image','promotore-simple-banner') ?>" />
             <input type='hidden' name='ptr_image_attachment_id' id='ptr_image_attachment_id' value='<?php echo get_option( 'ptr_banner_id' ); ?>'>
             <input type='hidden' name='my_saved_attachment_post_id' id='my_saved_attachment_post_id' value='<?php echo $my_saved_attachment_post_id; ?>; ?>'>
 
-            <input type="submit" name="ptr_submit_image_selector" value="Guardar" class="button-primary">
+            <input type="submit" name="ptr_submit_image_selector" value="<?php _e('Save','promotore-simple-banner') ?>" class="button-primary">
         </form>
     </div>
     <?php
